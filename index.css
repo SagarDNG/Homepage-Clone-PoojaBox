@@ -225,7 +225,6 @@ nav ul li svg {
     cursor: pointer;
 }
 
-
 .italic {
     font-style: italic;
 }
@@ -248,16 +247,10 @@ nav ul li svg {
     cursor: pointer;
 }
 
-
-
-
-
 .Mobile-Rakhi-Image,
 .Mobile-Glowing-Lamps {
     display: none;
 }
-
-
 
 .Paragraph {
     text-align: center;
