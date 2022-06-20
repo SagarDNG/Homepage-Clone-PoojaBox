@@ -57,7 +57,18 @@ nav ul li svg {
     width: 100%;
 }
 
-
+.Featured,
+.Incense,
+.Limited-Edition,
+.Healing-Crystals,
+.Himalayan-Salt-Lamps,
+.Evil-Eye,
+.God-Idols,
+.Pooja-Room,
+.Follow,
+.Paragraph {
+    margin: 3em;
+}
 
 
 
@@ -70,7 +81,6 @@ nav ul li svg {
 
 .Paragraph {
     text-align: center;
-    margin: 3em;
 }
 
 .Paragraph .para {
@@ -100,7 +110,7 @@ footer {
 footer .row-1 {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 5em;
+    margin-bottom: 10em;
 }
 
 footer .row-1 .col-1 div {
