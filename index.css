@@ -53,6 +53,10 @@ nav ul li svg {
     cursor: pointer;
 }
 
+.main img {
+    width: 100%;
+}
+
 .Mobile-Rakhi-Image,
 .Mobile-Glowing-Lamps {
     display: none;
