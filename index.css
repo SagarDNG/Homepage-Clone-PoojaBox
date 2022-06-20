@@ -303,7 +303,7 @@ footer .row-1 .col-1 div {
 }
 
 footer .row-1 .col-1 img:hover,
-footer .row-1 .col-1 buttons:hover,
+footer .row-1 .col-1 button:hover,
 footer .row-2 .col-1 span:hover {
     cursor: pointer;
 }
