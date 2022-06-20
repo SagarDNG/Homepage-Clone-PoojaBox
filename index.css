@@ -70,6 +70,113 @@ nav ul li svg {
     margin: 3em;
 }
 
+.featuredUL {
+    display: flex;
+    list-style: none;
+}
+
+.featuredUL li {
+    margin: auto .5em;
+    text-align: center;
+}
+
+.featuredUL li img {
+    border-radius: 50%;
+}
+
+.Incense,
+.Limited-Edition,
+.Healing-Crystals,
+.Himalayan-Salt-Lamps,
+.Evil-Eye,
+.God-Idols,
+.Pooja-Room {
+    display: flex;
+    flex-direction: column;
+}
+
+.Incense .row-1,
+.Limited-Edition .row-1,
+.Healing-Crystals .row-1,
+.Himalayan-Salt-Lamps .row-1,
+.Evil-Eye .row-1,
+.God-Idols .row-1,
+.Pooja-Room .row-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: .5em;
+}
+
+.Incense .row-1 button,
+.Limited-Edition .row-1 button,
+.Healing-Crystals .row-1 button,
+.Himalayan-Salt-Lamps .row-1 button,
+.Evil-Eye .row-1 button,
+.God-Idols .row-1 button,
+.Pooja-Room .row-1 button {
+    padding: .5em 1em;
+    color: #fff;
+    background-color: red;
+    border: none;
+}
+
+
+.Incense .row-2 div img,
+.Limited-Edition .row-2 div img,
+.Healing-Crystals .row-2 div img,
+.Himalayan-Salt-Lamps .row-2 div img,
+.Evil-Eye .row-2 div img,
+.God-Idols .row-2 div img,
+.Pooja-Room .row-2 div img {
+    width: 230px;
+    height: auto;
+    margin-bottom: .5em;
+}
+
+.Incense .row-2 div p,
+.Limited-Edition .row-2 div p,
+.Healing-Crystals .row-2 div p,
+.Himalayan-Salt-Lamps .row-2 div p,
+.Evil-Eye .row-2 div p,
+.God-Idols .row-2 div p,
+.Pooja-Room .row-2 div p {
+    margin-bottom: .5em;
+
+}
+
+.Incense .row-2 div button,
+.Limited-Edition .row-2 div button,
+.Healing-Crystals .row-2 div button,
+.Himalayan-Salt-Lamps .row-2 div button,
+.Evil-Eye .row-2 div button,
+.God-Idols .row-2 div button,
+.Pooja-Room .row-2 div button {
+    margin-bottom: .5em;
+    padding: .2em 5em;
+    color: #fff;
+    background-color: red;
+    border: none;
+}
+
+.Incense .row-2,
+.Limited-Edition .row-2,
+.Healing-Crystals .row-2,
+.Himalayan-Salt-Lamps .row-2,
+.Evil-Eye .row-2,
+.God-Idols .row-2,
+.Pooja-Room .row-2 {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.italic {
+    font-style: italic;
+}
+
+
 
 
 .Mobile-Rakhi-Image,
