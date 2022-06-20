@@ -379,6 +379,7 @@ footer .row-2 .col-2 span {
 
     .hamberger {
         display: block;
+        margin-left: -3em;
     }
 
     nav div:nth-of-type(3) {
@@ -388,7 +389,12 @@ footer .row-2 .col-2 span {
     nav div:nth-of-type(4) {
         display: flex;
         flex-direction: row;
+        justify-content: space-evenly;
     }
+
+    /* .featuredUL {
+        max-width: 100%;
+    } */
 
     .Mobile-Rakhi-Image,
     .Mobile-Glowing-Lamps {
