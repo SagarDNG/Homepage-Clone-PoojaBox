@@ -412,11 +412,6 @@ footer .row-2 .col-2 span {
         text-align: center;
     }
 
-    footer .row-2 .col-2 {
-        display: flex;
-        flex-direction: row;
-    }
-
     footer .row-1 .col-1 div img {
         width: 200px;
         margin: auto;
@@ -448,5 +443,12 @@ footer .row-2 .col-2 span {
 
     footer .row-2 div {
         margin: 1em auto;
+    }
+
+    footer .row-2 .col-2 {
+        display: flex;
+        flex-direction: row;
+        border-top: 1px solid #fff;
+        padding-top: 1em;
     }
 }
