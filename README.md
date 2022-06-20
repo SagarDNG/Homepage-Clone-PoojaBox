@@ -1,2 +1,2 @@
-# Homepage-Clone-PoojaBox.com
-Homepage clone - MyPoojaBox
+# Homepage-Clone-PoojaBox
+Cloning the Homepage of MyPoojaBox.com
