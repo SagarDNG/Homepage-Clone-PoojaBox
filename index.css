@@ -13,10 +13,13 @@
     display: none;
 }
 
-/* nav div:nth-of-type(3) {
-    background-color: red;
-    align-self: flex-start;
-} */
+.logo:hover {
+    cursor: pointer;
+}
+
+nav div:nth-of-type(3):hover {
+    cursor: pointer;
+}
 
 nav {
     display: flex;
@@ -49,6 +52,11 @@ nav ul li svg {
 }
 
 .search,
+.cart {
+    margin: auto .5em;
+}
+
+.search:hover,
 .cart:hover {
     cursor: pointer;
 }
@@ -57,6 +65,12 @@ nav ul li svg {
 .Glowing-Lamps img,
 .Rakhi-Image img {
     width: 100%;
+}
+
+.main img:hover,
+.Glowing-Lamps img:hover,
+.Rakhi-Image img:hover {
+    cursor: pointer;
 }
 
 .Featured,
@@ -75,6 +89,10 @@ nav ul li svg {
 .featuredUL {
     display: flex;
     list-style: none;
+}
+
+.featuredUL:hover {
+    cursor: pointer;
 }
 
 .featuredUL li {
@@ -123,6 +141,17 @@ nav ul li svg {
     border: none;
 }
 
+.Incense .row-1 button:hover,
+.Limited-Edition .row-1 button:hover,
+.Healing-Crystals .row-1 button:hover,
+.Himalayan-Salt-Lamps .row-1 button:hover,
+.Evil-Eye .row-1 button:hover,
+.God-Idols .row-1 button:hover,
+.Pooja-Room .row-1 button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 1px 1px red;
+    transition: .2s ease-in;
+}
 
 .Incense .row-2 div img,
 .Limited-Edition .row-2 div img,
@@ -161,6 +190,18 @@ nav ul li svg {
     border: none;
 }
 
+.Incense .row-2 div button:hover,
+.Limited-Edition .row-2 div button:hover,
+.Healing-Crystals .row-2 div button:hover,
+.Himalayan-Salt-Lamps .row-2 div button:hover,
+.Evil-Eye .row-2 div button:hover,
+.God-Idols .row-2 div button:hover,
+.Pooja-Room .row-2 div button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 1px 1px red;
+    transition: .2s ease-in;
+}
+
 .Incense .row-2,
 .Limited-Edition .row-2,
 .Healing-Crystals .row-2,
@@ -173,6 +214,17 @@ nav ul li svg {
     flex-direction: row;
     justify-content: space-between;
 }
+
+.Incense .row-2 div:hover,
+.Limited-Edition .row-2 div:hover,
+.Healing-Crystals .row-2 div:hover,
+.Himalayan-Salt-Lamps .row-2 div:hover,
+.Evil-Eye .row-2 div:hover,
+.God-Idols .row-2 div:hover,
+.Pooja-Room .row-2 div:hover {
+    cursor: pointer;
+}
+
 
 .italic {
     font-style: italic;
@@ -221,12 +273,24 @@ nav ul li svg {
     margin-top: 1.5em;
 }
 
+.Paragraph .READ-MORE:hover {
+    cursor: pointer;
+}
+
 .Icons {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     text-align: center;
     margin-bottom: 2em;
+    border-top: 1px solid rgb(188, 184, 184);
+    padding-top: 1em;
+}
+
+.Icons div:nth-of-type(1),
+.Icons div:nth-of-type(2) {
+    border-right: 1px solid rgb(134, 125, 125);
+    padding-right: 15em;
 }
 
 footer {
@@ -243,6 +307,12 @@ footer .row-1 {
 
 footer .row-1 .col-1 div {
     margin-bottom: 2em;
+}
+
+footer .row-1 .col-1 img:hover,
+footer .row-1 .col-1 buttons:hover,
+footer .row-2 .col-1 span:hover {
+    cursor: pointer;
 }
 
 footer .row-1 .col-1 div img {
