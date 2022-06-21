@@ -1,8 +1,9 @@
 * {
     margin: 0;
+    overflow-x: hidden;
 }
 
-.announcement-bar p {
+.announcement-bar {
     background-color: rgb(193, 74, 147);
     color: #fff;
     text-align: center;
@@ -378,6 +379,8 @@ footer .row-2 .col-2 span {
 
     .announcement-bar {
         font-size: small;
+        margin: 0;
+        padding: .5em 0;
     }
 
     nav {
