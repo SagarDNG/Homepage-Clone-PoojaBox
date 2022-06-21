@@ -503,6 +503,17 @@ footer .row-2 .col-2 span {
         flex-direction: row;
     }
 
+    .Incense .row-2,
+    .Limited-Edition .row-2,
+    .Healing-Crystals .row-2,
+    .Himalayan-Salt-Lamps .row-2,
+    .Evil-Eye .row-2,
+    .God-Idols .row-2,
+    .Pooja-Room .row-2,
+    .Follow .row-2 {
+        justify-content: space-evenly;
+    }
+
     .Mobile-Rakhi-Image,
     .Mobile-Glowing-Lamps {
         display: block;
